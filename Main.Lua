@@ -75,3 +75,15 @@ MainTab:CreateButton({
         -- Your auto accept code here
     end
 })
+
+local RaidBossTab = Window:CreateTab("🔥Raid Boss")
+
+RaidBossTab:CreateButton({
+    Name = "Start Auto Raid",
+    Callback = function()
+        print("Starting raid logic...")
+        -- Put your raid script here
+    end
+})
+
+
